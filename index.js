@@ -75,7 +75,7 @@ is_admin = 0;
 				
 		case "!bot help":
 
-    const helpembed = new Discord.RichEmbed()
+    const helpembed = new Discord.MessageEmbed()
     .setTitle('Help commands')
     .addField('!kickr @user <reason>', 'kick user from discord server with reason')
     .addField('!ban @user <reason>', 'ban user from discord server with reason')
