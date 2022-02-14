@@ -2,14 +2,19 @@
 
 Very simple Discord bot to manage Medal of Honor Allied Assault / Spearhead / Breakthrough servers and discord users.
 
-Only have kick and ban for the game servers and discord.
-
-To see the commands type "!bot help".
+Only have kick and ban (for now) for the game servers and discord.
 
 - Requirements:
 
-Medal of Honor Reborn Patch
+* Medal of Honor Reborn Patch (x-null.net)
+* Nodejs
 
-- Info:
+- Installation
+ 
+``` npm install ```
 
-http://www.x-null.net/forums
+- To start it run
+
+``` npm start ```
+
+To see the commands type "!bot help".
